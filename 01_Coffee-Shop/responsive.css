@@ -1,0 +1,162 @@
+@media (max-width:1100px){
+    .footer-logo-img{
+        width: 10rem;
+    }
+
+    /* .about-card-content p{
+        font-weight: 300;
+    } */
+}
+
+@media (max-width:1000px){
+    .navbar-list{
+        flex-direction: row !important;
+    }
+
+    /* review section */
+    .review-btn-box{
+        justify-content: center;
+    }
+}
+
+@media (max-width:800px){
+    /* page heading sytling */
+    .page-heading{
+        padding: 0 1rem;
+        margin: 0px;
+    }
+    .logo-img{
+        width: 4rem;
+        height: 3rem;
+    }
+    .page-heading h1{
+       font-size: 1rem;
+       margin-bottom: 0;
+
+    }
+    .heading-btn{
+        font-size: 1rem;
+    }
+
+    /* navbar styling */
+    
+    /* hero section */
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .logo-heading{
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .logo-img, 
+    .navbar {
+      display: none !important;
+    }
+  
+    .mobile-hamburger-btn {
+      display: flex;
+    }
+}
+
+
+@media (max-width:670px){
+    /* page heading */
+
+    .page-heading h1{
+      letter-spacing: 0.2rem;
+      font-size: 1.5rem;
+    }
+   
+    .heading-btn{
+        padding: 1rem 1rem;
+    }
+
+    .separate-line{
+        display: flex;
+    }
+    
+    /* about section */
+    .about-section{
+       padding: 5rem 0.4rem 0;
+    }
+
+    .about-card-container{
+        flex-direction: column;
+    }
+
+    /* menu category 2 */
+    .menu-cat2-title{
+        text-align: center;
+    }
+
+    /* menu category 3 */
+    .menu-cat3-title{
+        text-align: center;
+    }
+
+    
+
+    /* footer section */
+    .link-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* contact section */
+    .contact{
+        flex-direction: column;
+    }
+    .contact-info-box{
+        border-right: none;
+    }
+    .location{
+        flex-grow: 1;
+        padding-left: 0;
+        margin-top: 1.5rem;
+    }
+    .map-container{
+        height: 250px;
+    }
+}
+
+@media (max-width:500px){
+    /* page heading */
+
+    .page-heading h1{
+      letter-spacing: 0.2rem;
+      font-size: 1.2rem;
+    }
+
+    .logo-heading{
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .heading-btn{
+        font-size: 0.8rem;
+        padding: 1rem 1rem;
+    }
+
+    /* menu category 2 */
+    .menu-section h4{
+        text-align: center;
+    }
+    .menu-cat2-card{
+        flex-direction: column;
+    }
+
+    /* menu category 3 */
+    .why-us-card{
+        padding: 2rem 2rem;
+    }
+
+    
+}

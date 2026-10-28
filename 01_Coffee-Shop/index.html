@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Base & Bean</title>
+    <link rel="shortcut icon" href="Images/favicon/base_bean.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <!-- Heading Of Websites-->
+     <section class="page-heading">
+      <div class="logo-heading">
+       <!-- Custom Hamburger Button -->
+        <button class="mobile-hamburger-btn" id="menuBtn" aria-label="Toggle Navigation">
+           <span></span>
+           <span></span>
+           <span></span>
+        </button>
+        <img src="./Images/favicon/base_bean.png" alt="logo Image" class="logo-img">
+        <h1>Base & Beans</h1>
+      </div>     
+      <button class="heading-btn">
+        See How We Brew
+      </button>
+     </section>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse navbar-section d-flex align-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navbar-list">
+                  <li class="nav-item">
+                    <a class="nav-link text-white active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link text-white" href="#menu">Menu</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link text-white" href="#why">Why Us</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link text-white" href="#review">Review</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#faq">FAQ</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contact</a>
+                  </li>
+            </div>
+        </div>
+    </nav>
+
+     <!-- 100% Custom Mobile Drawer (No Bootstrap Dependency) -->
+      <div class="custom-mobile-drawer" id="mobileDrawer">
+        <div class="drawer-header">
+          <h5 class="drawer-title">Base & Beans</h5>
+          <button class="drawer-close-btn" id="closeBtn">&times;</button>
+        </div>
+        <div class="drawer-body">
+          <ul class="mobile-nav-list">
+            <li><a class="mobile-nav-link" href="#home">Home</a></li>
+            <li><a class="mobile-nav-link" href="#about">About</a></li>
+            <li><a class="mobile-nav-link" href="#menu">Menu</a></li>
+            <li><a class="mobile-nav-link" href="#why">Why Us</a></li>
+            <li><a class="mobile-nav-link" href="#review">Review</a></li>
+            <li><a class="mobile-nav-link" href="#faq">FAQ</a></li>
+            <li><a class="mobile-nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    
+    <!-- Backdrop (Screen Dark overlay) -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+
+    <!-- Separate Line -->
+     <div class="separate-line"></div>
+
+    <!-- Hero Section-->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <span class="badge-tag">✨ Freshly Roasted Daily</span>
+        <h1>Fuel Your Day With <span class="highlight">Artisanal Coffee</span></h1>
+        <p>Hand-picked beans, roasted to perfection. Experience rich flavour and unmatchable warmth in every single sip.</p>
+
+      <div class="hero-btns">
+        <button class="cta-primary">Claim Your Daily Brew</button>
+        <button class="cta-secondary">Explore Menu</button>
+      </div>
+    </div>
+      <div class="hero-img-container">
+        <img src="./Images/section/hero/hero-img.webp" alt="Fresh Base & Coffee Beans Cup" class="hero-img">
+      </div>
+    </section>
+
+    <!-- About Section-->
+     <section id="about" class="about-section">
+       <div class="about-heading">
+         <h2>The Craft Behind Every Bean</h2>
+         <p class="about-description">
+            At Sports Universe & Artisanal Brews, every cup tells a story of passion, precision, and perfection. 
+            From hand-picking the finest organic cherries at sustainable farms to small-batch roasting, 
+            we blend art and science to bring you an unmatched coffee experience.
+          </p>
+          <button class="about-btn">Discover our secret</button>
+       </div>
+      
+       <div class="about-card-container">
+       <div class="about-card">
+          <div class="arc-image-box">
+           <video autoplay muted loop playsinline>
+            <source src="./videos/about/about1.mp4" type="video/mp4">
+            Your Browser Does Not Support Video Format
+           </video>
+           <div class="card-overlay"></div>
+          <div class="about-card-content">
+            <h4>Hand-Picked & Ethically Sourced</h4>
+            <p>Sourced directly from high-altitude sustainable farms to ensure 100% natural purity.</p>
+          </div>
+        </div>     
+       </div>
+
+       <div class="about-card">
+        <div class="arc-image-box">
+          <video autoplay muted loop playsinline>
+            <source src="./videos/about/about2.mp4" type="video/mp4">
+            Your Browser Does Not Support Video Format
+           </video>
+           <div class="card-overlay"></div>
+         
+          <div class="about-card-content ">
+             <h4>Mastered Small-Batch Roasting</h4>
+             <p>Slow-roasted in precise quantities to unlock deep aromas and rich natural flavors.</p>
+          </div>
+         </div>
+       </div>
+
+       <div class="about-card">
+        <div class="arc-image-box">
+          <video autoplay muted loop playsinline>
+            <source src="./videos/about/about3.mp4" type="video/mp4">
+             Your Browser Does Not Support Video Format
+           </video>
+           <div class="card-overlay"></div>
+        
+          <div class="about-card-content">
+            <h4>Freshly Brewed Perfection</h4>
+            <p>Crafted fresh daily with ideal grind sizes and precise water temperature.</p>
+          </div>
+          </div> 
+       </div>
+      </div>
+     </section>
+
+     <!-- Menu Section-->
+      <section id="menu" class="menu-section">
+         <div class="menu-heading">
+            <h2>Our Signature Collection</h2>
+            <p>Savor the art of fine coffee with our handpicked selections. From small-batch 
+              roasted organic beans to masterfully poured espressos and handcrafted brewing 
+              gear, explore a collection crafted for true coffee purists and daily enthusiasts alike.</p>
+         </div>
+
+         <!-- Menu Category 1 -->
+         <div class="menu-cat1-container">
+          <h4>Roasted Coffee Beans & Powder</h4>
+
+          <div class="menu-cat1-card-container">
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/section/menu/cat1/card1.webp" class="card-img-top" alt="Arabic Dark Roast">
+              <div class="card-body">
+                <h5 class="card-title">Highland Arabica Dark Roast</h5>
+                <p class="card-text">Rich, bold whole beans with deep chocolate notes and a smooth, smoky aroma finish.</p>
+                <div class="card-footer-box">
+                  <span class="price">$14.50</span>
+                  <a href="#" class="menu-btn">Brew This</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/section/menu/cat1/card2.webp" class="card-img-top" alt="Single-Origin Espresso Powder">
+              <div class="card-body">
+                <h5 class="card-title">Single-Origin Espresso Powder</h5>
+                <p class="card-text">Ultra-fine ground espresso delivering intense crema and a strong, velvety espresso shot.</p>
+                <div class="card-footer-box">
+                  <span class="price">$12.00</span>
+                  <a href="#" class="menu-btn">Brew This</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/section/menu/cat1/card3.webp" class="card-img-top" alt="Organic Ethiopian Yirgacheffe">
+              <div class="card-body">
+                <h5 class="card-title">Organic Ethiopian Yirgacheffe</h5>
+               <p class="card-text">Lightly roasted organic coffee beans infused with bright floral tones and sweet berry undertones.</p>
+                <div class="card-footer-box">
+                  <span class="price">$16.80</span>
+                  <a href="#" class="menu-btn">Brew This</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/section/menu/cat1/card4.webp" class="card-img-top" alt="Artisanal French Press Grind">
+              <div class="card-body">
+                <h5 class="card-title">Artisanal French Press Grind</h5>
+                <p class="card-text">Perfectly coarse ground coffee designed for slow immersion brewing to maximize flavor extraction.</p>
+                <div class="card-footer-box">
+                  <span class="price">$13.50</span>
+                  <a href="#" class="menu-btn">Brew This</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+         </div>
+
+         <!-- Menu Category 2-->
+          <div class="menu-cat2-container">
+            <h4 class="menu-cat2-title">Handcrafted Drinks & Brews</h4>
+
+            <div class="menu-cat2-card-container">
+
+              <div class="menu-cat2-card">
+                <img src="./Images/section/menu/cat2/img1.webp" alt="" class="menu-cat2-card-img">
+                <div class="menu-cat2-card-content">
+                  <h6 class="menu-cat2-card-title">Signature Velvet Latte</h6>
+                  <p class="menu-cat2-card-text">Rich espresso with micro-foamed organic milk</p>
+                  <div class="menu-cat2-card-footer">
+                    <span class="menu-cat2-card-price">$5.20</span>
+                    <a href="#" class="menu-cat2-btn">Grab Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-cat2-card">
+                <img src="./Images/section/menu/cat2/img2.webp" alt="" class="menu-cat2-card-img">
+                <div class="menu-cat2-card-content">
+                  <h6 class="menu-cat2-card-title">Classic Cold Brew Tonic </h6>
+                  <p class="menu-cat2-card-text">Steeped for 18 hours, served chilled over ice</p>
+                   <div class="menu-cat2-card-footer">
+                    <span class="menu-cat2-card-price">$5.00</span>
+                    <a href="#" class="menu-cat2-btn">Grab Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-cat2-card">
+                <img src="./Images/section/menu/cat2/img3.webp" alt="" class="menu-cat2-card-img">
+                <div class="menu-cat2-card-content">
+                  <h6 class="menu-cat2-card-title">Double Shot Espresso Single-Origin</h6>
+                  <p class="menu-cat2-card-text">Pure, bold, and intense aroma</p>
+                  <div class="menu-cat2-card-footer">
+                    <span class="menu-cat2-card-price">$3.50</span>
+                    <a href="#" class="menu-cat2-btn">Grab Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-cat2-card">
+                <img src="./Images/section/menu/cat2/img4.webp" alt="" class="menu-cat2-card-img">
+                <div class="menu-cat2-card-content">
+                  <h6 class="menu-cat2-card-title">Iced Caramel Macchiato</h6>
+                  <p class="menu-cat2-card-text">Espresso with buttery caramel & cold foamk</p>
+                  <div class="menu-cat2-card-footer">
+                    <span class="menu-cat2-card-price">$5.80</span>
+                    <a href="#" class="menu-cat2-btn">Grab Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-cat2-card">
+                <img src="./Images/section/menu/cat2/img5.webp" alt="" class="menu-cat2-card-img">
+                <div class="menu-cat2-card-content">
+                  <h6 class="menu-cat2-card-title">Pour-Over Specialty Filter</h6>
+                  <p class="menu-cat2-card-text">Hand-poured slow drip coffeek</p>
+                  <div class="menu-cat2-card-footer">
+                    <span class="menu-cat2-card-price">$4.50</span>
+                    <a href="#" class="menu-cat2-btn">Grab Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-cat2-card">
+                <img src="./Images/section/menu/cat2/img6.webp" alt="" class="menu-cat2-card-img">
+                <div class="menu-cat2-card-content">
+                  <h6 class="menu-cat2-card-title">Hazelnut Mocha Frappe</h6>
+                  <p class="menu-cat2-card-text">Blended iced coffee with premium dark chocolate</p>
+                  <div class="menu-cat2-card-footer">
+                    <span class="menu-cat2-card-price">$6.20</span>
+                    <a href="#" class="menu-cat2-btn">Grab Now</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+
+          </div>
+
+         <!-- Menu Category 3 -->
+          <div class="menu-cat3-container">
+            <h4 class="menu-cat3-title">Merchandise & Brewing Gear</h4>
+          
+            <div class="menu-cat3-card-container">
+            
+                <!-- Card 1 -->
+                <div class="menu-cat3-card">
+                  <div class="menu-cat3-card-body">
+                    <img src="./Images/section/menu/cat3/img1.webp" alt="Stainless Steel French Press" class="menu-cat3-card-img">
+                    <div class="menu-cat3-overlay"></div>
+                    <div class="menu-cat3-card-content">
+                      <h6 class="menu-cat3-card-title">Stainless Steel French Press</h6>
+
+                      <div class="menu-cat3-card-footer">
+                        <span class="menu-cat3-card-price">$32.00</span>
+                        <a href="#" class="menu-cat3-card-btn">Shop Gear</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Card 2 -->
+                <div class="menu-cat3-card">
+                  <div class="menu-cat3-card-body">
+                    <img src="./Images/section/menu/cat3/img2.webp" alt="Precision Gooseneck Kettle" class="menu-cat3-card-img">
+                    <div class="menu-cat3-overlay"></div>
+                    <div class="menu-cat3-card-content">
+                      <h6 class="menu-cat3-card-title">Precision Gooseneck Kettle</h6>
+                     
+                      <div class="menu-cat3-card-footer">
+                        <span class="menu-cat3-card-price">$45.00</span>
+                        <a href="#" class="menu-cat3-card-btn">Shop Gear</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Card 3 -->
+                <div class="menu-cat3-card">
+                  <div class="menu-cat3-card-body">
+                    <img src="./Images/section/menu/cat3/img3.webp" alt="Adjustable Burr Hand Grinder" class="menu-cat3-card-img">
+                    <div class="menu-cat3-overlay"></div>
+                    <div class="menu-cat3-card-content">
+                      <h6 class="menu-cat3-card-title">Adjustable Burr Hand Grinder</h6>
+                     
+                      <div class="menu-cat3-card-footer">
+                        <span class="menu-cat3-card-price">$28.50</span>
+                        <a href="#" class="menu-cat3-card-btn">Shop Gear</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+                <!-- Card 4 -->
+                <div class="menu-cat3-card">
+                  <div class="menu-cat3-card-body">
+                    <img src="./Images/section/menu/cat3/img4.webp" alt="Artisanal Matte Ceramic Mug" class="menu-cat3-card-img">
+                    <div class="menu-cat3-overlay"></div>
+                    <div class="menu-cat3-card-content">
+                      <h6 class="menu-cat3-card-title">Artisanal Matte Ceramic Mug</h6>
+                    
+                      <div class="menu-cat3-card-footer">
+                        <span class="menu-cat3-card-price">$15.00</span>
+                        <a href="#" class="menu-cat3-card-btn">Shop Gear</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+            </div>
+        </div>
+
+      </section>
+
+      <!-- Why Choose Us Section-->
+       <section id="why" class="why-us-section">
+
+        <div class="why-us-header">
+          <h2 class="why-us-title">Why Coffee Lovers Choose Us</h2>
+          <p class="why-us-text">From sustainably harvested beans to expertly poured cups, 
+            discover what makes every visit to Base & Bean a rich and soulful ritual for true
+             coffee purists.</p>
+        </div>
+ 
+        <div class="why-us-container">
+          
+          <div class="why-us-card">
+            <div class="why-us-icon">
+                <i class="fa-solid fa-seedling text-success"></i>
+            </div>
+            <h4 class="why-us-card-title">100% Organic Beans</h4>
+            <p class="why-us-card-text">Directly sourced from sustainable high-altitude farms without harmful chemicals.</p>
+
+          </div>
+
+
+           <div class="why-us-card">
+            <div class="why-us-icon">
+               <i class="fa-solid fa-fire text-warning"></i>
+            </div>
+            <h4 class="why-us-card-title">Artisan Roasted</h4>
+            <p class="why-us-card-text">Small-batch roasted daily by master roasters to unlock optimal flavor profiles.</p>
+
+          </div>
+
+
+           <div class="why-us-card">
+            <div class="why-us-icon">
+               <i class="fa-solid fa-coffee text-danger-emphasis"></i>
+            </div>
+            <h4 class="why-us-card-title">Barista Crafted</h4>
+            <p class="why-us-card-text">Every cup is meticulously brewed with precise grind, temperature, and ratio.</p>
+
+          </div>
+
+
+           <div class="why-us-card">
+            <div class="why-us-icon">
+               <i class="fa-solid fa-recycle text-primary"></i>
+            </div>
+            <h4 class="why-us-card-title">Eco-Friendly Packaging</h4>
+            <p class="why-us-card-text">100% biodegradable cups and compostable packaging to protect nature.</p>
+
+          </div>
+
+        </div>
+
+       </section>
+     
+      <!-- Testimonial Section-->  
+      <section id="review" class="review-section">
+         <div class="review-header">
+            <h2 class="review-title">What Coffee Lovers Say</h2>
+            <p class="review-text">Real stories from our daily coffee community</p>
+         </div>
+
+         <div class="review-container">
+
+            <div class="review-card">
+              <div class="review-stars">★★★★★</div>
+              <p class="review-card-text">"The Velvet Latte is easily the smoothest espresso drink I've had. The ambiance and rich aroma keep me coming back every morning.</p>
+              <div class="reviewer-info">
+                <h6 class="reviewer-name">Aarav Sharma</h6>
+                <span class="reviewer-role">Coffee Enthusiast</span>
+              </div>
+            </div>
+
+               <div class="review-card">
+                  <div class="review-stars">★★★★★</div>
+                  <p class="review-card-text">"Ordered the Gooseneck Kettle and whole beans. Delivery was fast, and the packaging is truly eco-friendly. Top-notch quality!"</p>
+                  <div class="reviewer-info">
+                    <h6 class="reviewer-name">Riya Kapoor</h6>
+                    <span class="reviewer-role">Verified Buyer</span>
+                  </div>
+                </div>
+
+               <div class="review-card">
+                  <div class="review-stars">★★★★★</div>
+                  <p class="review-card-text">"Their Cold Brew Tonic is unmatched! Perfectly balanced flavor without any harsh bitterness. Base & Bean never disappoints."</p>
+                  <div class="reviewer-info">
+                    <h6 class="reviewer-name">Vikram Malhotra</h6>
+                    <span class="reviewer-role">Daily Visitor</span>
+                  </div>
+                </div>
+
+            </div>
+         </div>
+
+         <div class="review-btn-box">
+          <button class="review-btn">Join Our Tribe</button>
+         </div>
+
+      </section>
+     
+      <!-- FAQ Section-->
+       <section id="faq" class="faq-section">
+          <div class="faq-header">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+            <p class="faq-text">Got Questions? We've Got Answers</p>
+          </div>
+
+          <div class="faq-container">
+            
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>What are your store operational hours?</span>
+                <i class="fa-solid fa-chevron-down faq-arrow"></i>
+              </summary>
+              <p class="faq-answer">We are open Monday to Sunday from 7:00 AM to 11:00 PM at all our main cafe locations.</p>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Do you offer dairy-free or vegan milk alternatives?</span>
+                <i class="fa-solid fa-chevron-down faq-arrow"></i>
+              </summary>
+              <p class="faq-answer">Yes! We offer Almond, Oat, and Soy milk alternatives for all our espresso and specialty drinks.</p>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>How fresh are your packaged coffee beans?</span>
+                <i class="fa-solid fa-chevron-down faq-arrow"></i>
+              </summary>
+              <p class="faq-answer">Our beans are small-batch roasted daily and packed in degas valve bags to guarantee peak freshness.</p>
+            </details>
+
+            <details class="faq-item">
+              <summary class="faq-question">
+                <span>Is your packaging eco-friendly?</span>
+                <i class="fa-solid fa-chevron-down faq-arrow"></i>
+              </summary>
+              <p class="faq-answer">100%! All our takeaway cups, lids, and bean packaging are 100% biodegradable and compostable.</p>
+            </details>
+
+          </div>
+       </section>
+
+      <!-- footer Section -->
+      <section id="contact" class="footer-section">
+
+        <div class="link-container">
+
+          <div class="footer-logo">
+            <img src="./Images/favicon/base_bean.png" alt="" class="footer-logo-img">
+          </div>
+
+          <div class="link-col">
+            <h4 class="link-heading">About Us</h4>
+            <ul class="link-list">
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Master Roasters</a></li>
+              <li><a href="#">Coffee House</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+
+          <div class="link-col">
+            <h4 class="link-heading">Quick Links</h4>
+            <ul class="link-list">
+              <li><a href="#">Menu & Specials</a></li>
+              <li><a href="#">Coffee Beans Shop</a></li>
+              <li><a href="#">Brew Guides</a></li>
+              <li><a href="#">Store Locator</a></li>
+            </ul>
+          </div>
+
+          <div class="link-col">
+            <h4 class="link-heading">Sustainability</h4>
+            <ul class="link-list">
+              <li><a href="#">Eco Packaging</a></li>
+              <li><a href="#">Direct Farm Sourcing</a></li>
+              <li><a href="#">Waste Reduction</a></li>
+              <li><a href="#">Community Support</a></li>
+            </ul>
+          </div>
+
+          <div class="link-col">
+            <h4 class="link-heading">Customer Care</h4>
+            <ul class="link-list">
+              <li><a href="#">Order Tracking</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="contact">
+            <div class="contact-info-box">
+               <h4 class="contact-title">Get In Touch</h4>
+               <p class="contact-text">Have a question, feedback, or custom coffee order? Reach out to us anytime!</p>
+               <div class="contact-info">
+                 <p><i class="fa-solid fa-location-dot contact-icon"></i> 123 Artisan Brew Street, Connaught Place, New Delhi</p>
+                 <p><i class="fa-solid fa-phone contact-icon"></i> +91 98765 43210</p>
+                 <p><i class="fa-solid fa-envelope contact-icon"></i> hello@baseandbean.com</p>
+                 <p><i class="fa-solid fa-clock contact-icon"></i> Mon - Sun: 7:00 AM - 10:00 PM</p>
+               </div>
+
+               <div class="social-links">
+                 <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                 <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                 <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+               </div>
+            </div>
+
+
+            <div class="location">
+                <h4 class="contact-title">Where To Find Our Brew</h4>
+                <div class="map-container">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10652.536651960885!2d72.81887263605483!3d19.068105733633484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c96cec6b8b4d%3A0xf2ef1411250a699b!2sPali%20Hill%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1787298560364!5m2!1sen!2sin" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="strict-origin-when-cross-origin">
+                  </iframe>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
